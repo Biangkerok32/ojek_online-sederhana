@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Place Autocomplete and Directions</title>
+    <title>Ojek Online Sederhana</title>
     <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
     <meta charset="utf-8">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -23,7 +23,7 @@
   <body>
     <div class="container">
         <br />
-        <form action="coba.php" id="myForm" role="form" data-toggle="validator" method="post" accept-charset="utf-8">
+        <form action="detailorder.php" id="myForm" role="form" data-toggle="validator" method="post" accept-charset="utf-8">
 
         <!-- SmartWizard html -->
         <div id="smartwizard">

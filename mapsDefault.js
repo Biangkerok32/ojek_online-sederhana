@@ -157,7 +157,7 @@
           /*          
           
           /*          
-            jumlah kilometer dikalikan dengan 500 
+            jumlah kilometer dikalikan dengan 1700 di jam non sibuk, 2000 jam sibuk, dan argo diatas 100 km dikalikan 6000
             setelah itu hasilnya kita konversikan kedalam format kurs rupiah
           */
           if (distance2 >=0 && distance2<= 5){
@@ -198,7 +198,8 @@
       /*      
     menghitung jarak dari data yg dikirim dari form
     disini saya setting untuk mode DRIVING dan menggunakan jalan raya atau juga tol,
-    jika ingin mengganti konfigurasinya, silahkan ganti false dengan true
+    jika ingin mengganti rute yang ingin dilewatkan silahkan konfigurasi di bagian avoidHighways dan avoidTolls dengan pilihan true yaitu ingin menghindari 
+    dan false tidak menghindari
     */
       
       // fungsi sederhana untuk mengkonversi bilangan bulat menjadi format kurs rupiah
